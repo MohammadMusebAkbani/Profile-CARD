@@ -1,6 +1,4 @@
-import React from 'react'
-
-// Individual Stat Item Component
+// Simple reusable stat item (icon + count)
 const StatItem = ({ icon: Icon, count }) => {
   return (
     <div className="flex gap-1 items-center">
@@ -10,4 +8,4 @@ const StatItem = ({ icon: Icon, count }) => {
   );
 };
 
-export default StatItem
+export default StatItem;

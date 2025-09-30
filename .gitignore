@@ -11,6 +11,13 @@ node_modules
 dist
 dist-ssr
 *.local
+BEFORE_VS_AFTER.md
+GRID_LAYOUT_GUIDE.md
+HOW_IT_WORKS.md
+HOW_TO_ADD_PROFILES.md
+PROJECT_STRUCTURE.md
+QUICK_REFERENCE.md
+REFACTORING_COMPLETE.md
 
 # Editor directories and files
 .vscode/*

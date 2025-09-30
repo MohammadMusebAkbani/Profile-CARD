@@ -1,7 +1,5 @@
-import React from "react";
-
-// Individual Social Icon Component
-const SocialIcons = ({ icon: Icon, bgColor, href = "#" }) => {
+// Simple reusable icon button for social media links
+const IconButton = ({ icon: Icon, bgColor, href }) => {
   return (
     <a
       href={href}
@@ -12,4 +10,4 @@ const SocialIcons = ({ icon: Icon, bgColor, href = "#" }) => {
   );
 };
 
-export default SocialIcons;
+export default IconButton;
